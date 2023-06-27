@@ -1,6 +1,6 @@
 {
-  "name": "io-game-from-scratch",
-  "version": "1.0.0",
+  "name": "lukes-io-game",
+  "version": "1.0.1",
   "description": "",
   "main": "src/server/server.js",
   "scripts": {
