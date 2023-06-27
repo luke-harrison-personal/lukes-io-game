@@ -76,11 +76,11 @@ function renderPlayer(me, player) {
   context.translate(canvasX, canvasY);
   context.rotate(direction);
   context.drawImage(
-    getAsset('ship.svg'),
+    getAsset('car.svg'),
     -PLAYER_RADIUS,
-    -PLAYER_RADIUS,
+    -PLAYER_RADIUS * 1.5,
     PLAYER_RADIUS * 2,
-    PLAYER_RADIUS * 2,
+    PLAYER_RADIUS * 3,
   );
   context.restore();
 
